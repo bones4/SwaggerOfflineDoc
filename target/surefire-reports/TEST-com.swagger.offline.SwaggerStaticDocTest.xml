@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.swagger.offline.SwaggerStaticDocTest" time="1.022" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2017.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\app\jdk\jdk1.8\install\jre\bin"/>
+    <property name="java.vm.version" value="25.73-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workspace\git\javaTestDemo\SwaggerOfflineDoc"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\git\javaTestDemo\SwaggerOfflineDoc"/>
+    <property name="java.runtime.version" value="1.8.0_73-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\app\jdk\jdk1.8\install\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\Apple\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\app\JetBrains\IntelliJ IDEA 2017.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\app\jdk\jdk1.8\install\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\app\git\install\cmd;D:\app\jdk\jdk1.8\install\bin\;D:\app\gradle\install\gradle-4.10.3\bin;D:\app\jdk\jdk1.8\install\jre\bin\;D:\app\maven\install\apache-maven-3.6.0\bin;D:\app\svn\install\bin;D:\app\mysql\install\mysql-5.7.24-winx64\bin;C:\WINDOWS\System32\OpenSSH\;D:\app\redis\install\Ruby22-x64\bin;D:\app\zookeeper\install\zookeeper-3.4.10-cluster\server1\bin\;D:\app\redis\install\Ruby22-x64\bin;C:\Users\Apple\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Apple"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Apple"/>
+    <property name="java.class.path" value="D:\app\JetBrains\IntelliJ IDEA 2017.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;D:\app\JetBrains\IntelliJ IDEA 2017.3\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="D:\app\jdk\jdk1.8\install\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.3 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.8.0_73"/>
+    <property name="java.ext.dirs" value="D:\app\jdk\jdk1.8\install\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\app\jdk\jdk1.8\install\jre\lib\resources.jar;D:\app\jdk\jdk1.8\install\jre\lib\rt.jar;D:\app\jdk\jdk1.8\install\jre\lib\sunrsasign.jar;D:\app\jdk\jdk1.8\install\jre\lib\jsse.jar;D:\app\jdk\jdk1.8\install\jre\lib\jce.jar;D:\app\jdk\jdk1.8\install\jre\lib\charsets.jar;D:\app\jdk\jdk1.8\install\jre\lib\jfr.jar;D:\app\jdk\jdk1.8\install\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\app\JetBrains\IntelliJ IDEA 2017.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="TestApiNew" classname="com.swagger.offline.SwaggerStaticDocTest" time="1.022"/>
+</testsuite>
